@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>leetcode on For recording and sharing</title>
+    <link>https://thediscoverer.github.io/tags/leetcode/</link>
+    <description>Recent content in leetcode on For recording and sharing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 May 2020 10:41:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://thediscoverer.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>leetcode-平衡二叉树</title>
+      <link>https://thediscoverer.github.io/blog/</link>
+      <pubDate>Mon, 25 May 2020 10:41:26 +0800</pubDate>
+      
+      <guid>https://thediscoverer.github.io/blog/</guid>
+      <description>平衡二叉树 题目链接：https://leetcode-cn.com/problems/balanced-binary-tree/ Tag：树 题目描述 给定一个二叉树，判断是否是高度平衡的二叉树。字节三面的时候问了这个问题 解法 这一题采用自底向上的递归方式，checkIsBalanced计算节点的高度，从叶子节点计算到根节点。计算出叶子结点的高度</description>
+    </item>
+    
+  </channel>
+</rss>
