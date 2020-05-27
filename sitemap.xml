@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thediscoverer.github.io/netty/</loc>
-    <lastmod>2020-05-27T16:21:22+08:00</lastmod>
+    <loc>https://thediscoverer.github.io/2/</loc>
+    <lastmod>2020-05-27T21:55:12+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://thediscoverer.github.io/post/</loc>
+    <lastmod>2020-05-27T21:55:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thediscoverer.github.io/netty/</loc>
     <lastmod>2020-05-27T16:21:22+08:00</lastmod>
   </url>
   
