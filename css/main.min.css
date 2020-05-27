@@ -7431,7 +7431,7 @@ body a:hover {
 }
 
 .main-title {
-	font-family: 宋体,'Product Sans', -apple-system, BlinkMacSystemFont, Arial, monospace;
+	font-family:"Noto Serif","PT Serif","source-han-serif-sc",Songti SC,serif, 宋体,'Product Sans', -apple-system, BlinkMacSystemFont, Arial, monospace;
 	font-weight: 700;
 	font-size: 2.5rem;
 	white-space: nowrap;
