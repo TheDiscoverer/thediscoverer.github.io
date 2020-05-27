@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>归档 on For recording and sharing</title>
-    <link>https://example.com/</link>
+    <link>https://thediscoverer.github.io/</link>
     <description>Recent content in 归档 on For recording and sharing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thediscoverer.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1</title>
-      <link>https://example.com/1/</link>
+      <link>https://thediscoverer.github.io/1/</link>
       <pubDate>Wed, 27 May 2020 17:12:54 +0800</pubDate>
       
-      <guid>https://example.com/1/</guid>
+      <guid>https://thediscoverer.github.io/1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Netty</title>
-      <link>https://example.com/netty/</link>
+      <link>https://thediscoverer.github.io/netty/</link>
       <pubDate>Wed, 27 May 2020 16:21:22 +0800</pubDate>
       
-      <guid>https://example.com/netty/</guid>
+      <guid>https://thediscoverer.github.io/netty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://thediscoverer.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://thediscoverer.github.io/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
  https://github.com/yuin/goldmark https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
