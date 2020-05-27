@@ -197,7 +197,7 @@ input,select,textarea,button {
 }
 
 body {
-	font-family: -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Helvetica","Arial","PingFang SC","Hiragino Sans GB","Source Han Sans CN","Source Han Sans SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	font-family: 宋体,-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Helvetica","Arial","PingFang SC","Hiragino Sans GB","Source Han Sans CN","Source Han Sans SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
 	color: #24292e;
