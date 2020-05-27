@@ -198,7 +198,7 @@ input,select,textarea,button {
 
 body {
 	font-family: 宋体,PingFangSC-Regular,Helvetica,"Helvetica Neue","Segoe UI","Hiragino Sans GB","Source Han Sans CN","Microsoft YaHei",STHeiti,"WenQuanYi Micro Hei",sans-serif, "Times New Rom",-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Helvetica","Arial","PingFang SC","Hiragino Sans GB","Source Han Sans CN","Source Han Sans SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
-	font-size: 1rem;
+	font-size: 0.75rem;
 	line-height: 1.5;
 	color: #666;
 	background-color: #fff
@@ -7439,7 +7439,7 @@ body a:hover {
 }
 
 .link-alter a {
-	color: #8F82BC
+	color: #666
 }
 
 .link-alter a:hover {
