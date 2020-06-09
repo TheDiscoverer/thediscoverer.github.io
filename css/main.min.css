@@ -1017,7 +1017,7 @@ pre {
 
 .markdown-body {
 	font-family: "Noto Serif","PT Serif","source-han-serif-sc",Songti SC,serif,宋体,PingFangSC-Regular,Helvetica,"Helvetica Neue","Segoe UI","Hiragino Sans GB","Source Han Sans CN","Microsoft YaHei",STHeiti,"WenQuanYi Micro Hei",sans-serif,宋体,"Times New Rom",BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Helvetica","Arial","PingFang SC","Hiragino Sans GB","Source Han Sans CN","Source Han Sans SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.5;
 	word-wrap: break-word
 }
@@ -7655,7 +7655,7 @@ article {
 
 #sidebar ul ul {
 	margin: 0 0.5rem;
-	font-size: 0.875rem
+	font-size: 0.950rem
 }
 
 #sidebar h5 {
