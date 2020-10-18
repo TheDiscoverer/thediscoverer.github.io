@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chinese on For recording and sharing</title>
+    <link>https://thediscoverer.github.io/tags/chinese/</link>
+    <description>Recent content in chinese on For recording and sharing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Mar 2018 12:13:35 +0530</lastBuildDate>
+    
+	<atom:link href="https://thediscoverer.github.io/tags/chinese/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>中文测试</title>
+      <link>https://thediscoverer.github.io/posts/post-4/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:35 +0530</pubDate>
+      
+      <guid>https://thediscoverer.github.io/posts/post-4/</guid>
+      <description>荷塘月色 朱自清（1898年11月22日—1948年8月12日），原名自华，号实秋，后改名自清，字佩弦。原籍浙江绍兴，出生于江苏省东海县（今连云港市东海县平明镇），后随父定居扬州。中国现代散文家、诗人、</description>
+    </item>
+    
+  </channel>
+</rss>
