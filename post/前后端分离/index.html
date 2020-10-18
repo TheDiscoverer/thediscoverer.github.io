@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.71.0" />
+
+  <title> 前后端分离 |  </title>
+  <meta name="description" content="技术发展">
+  <link rel="stylesheet" href="https://thediscoverer.github.io/css/index.css">
+  <link rel="stylesheet" href="https://thediscoverer.github.io/css/classes.css">
+  <link rel="canonical" href="https://thediscoverer.github.io/post/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/">
+  <link rel="alternate" type="application/rss+xml" href="" title="">
+  
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="menus">
+  
+
+  <nav >
+    
+    <a href="/"> Home</a>
+    
+    <a href="/about/"> About</a>
+    
+  </nav>
+
+  <nav class="fontawesome">
+    
+    
+  </nav>
+  
+  
+  <div class="hidden description">Made by <a href="">Blog Author</a></div>
+  
+</header>
+
+<article id="article">
+  <header>
+  
+
+    <h1 style="text-align: center;" >前后端分离</h1>
+    <div class="post-meta">
+    
+      <time datetime="2020-07-07T21:53:44&#43;08:00">July 07, 2020</time> &nbsp; 
+    
+
+     &nbsp;
+
+    
+    
+    
+
+    
+    </div>
+  </header>
+
+  <p>因为在微软实习做一个前端的项目，在此了解下需要了解下前后端分离的架构模式，传统的全栈开发如何解偶为前端和后端开发。</p>
+<h2 id="什么叫前后端分离">什么叫前后端分离？</h2>
+<p>前后端分离的架构模式是指浏览器向web服务器发起资源请求时，web服务器解析请求，对需要的数据通过向应用服务器发起HTTP请求或者RPC调用获取json，接着将json中的数据融合到html模版中，最后返回给浏览器html/css/js内容。通常这里的web服务器是ngnix或者apache服务器，主要解析静态资源请求，可以被外网访问。应用服务器包括tomcat、jetty、resin等，当然他也可以解析静态资源请求，但是效果没有web服务器好，只能在内网被访问。</p>
+<p>在这里前端包括浏览器和web服务器，web服务器中主要依靠nodeJs环境运行javascript程序，生成对应的HTML文件，这当然得益于nodejs的诞生，让javascript成为服务器端与java、python、php平齐的服务端语言。</p>
+<h2 id="为什么会出现前后端分离">为什么会出现前后端分离？</h2>
+<p>传统的非前后端分离架构中，应用服务器中负责接收浏览器的HTTP请求，响应请求需求处理业务逻辑，需要渲染HTML页面，最后将HTML/CSS/js静态资源返回给浏览器。
+这时的前后端架构为：
+<img src="/media/2.1.jpg" alt="架构1"></p>
+<p>这里主要有多个问题：</p>
+<ul>
+<li>开发人员不仅需要掌握后端技术，还需要掌握前端技术，学习成本高。</li>
+<li>开发效率低，同时兼顾前端和后端开发，一边开发业务逻辑实现api接口，一边开发页面。</li>
+<li>代码维护困难</li>
+<li>难以应对多种前端包括安卓、IOS、web前端、小程序等，每一种前端都要开发一套完整系统。</li>
+</ul>
+<p>前后端分离的架构如图所示。
+<img src="/media/2.2.jpg" alt="架构2"></p>
+
+  
+  <footer>
+    <hr>
+    
+    <div class="post-tags">
+    
+      <i class="fas fa-tags"></i>
+      
+        <a href="/tags/...">...</a>
+        &nbsp;
+      
+        <a href="/tags/...">...</a>
+        &nbsp;
+      
+        <a href="/tags/...">...</a>
+        &nbsp;
+      
+    
+    </div>
+  </footer>
+  
+
+  
+
+
+  <div class="comments">
+
+
+
+</div>
+
+</article>
+
+
+
+  
+  
+  
+</body>
+<div class="foot">
+  
+  
+
+  
+</div>
+
+
+
+</html>

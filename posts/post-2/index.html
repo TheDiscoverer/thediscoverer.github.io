@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Hugo 0.71.0" />
 
-  <title> Markdown Syntax Guide |  For recording and sharing</title>
+  <title> Markdown Syntax Guide |  </title>
   <meta name="description" content="Markdown Syntax Guide">
   <link rel="stylesheet" href="https://thediscoverer.github.io/css/index.css">
   <link rel="stylesheet" href="https://thediscoverer.github.io/css/classes.css">
   <link rel="canonical" href="https://thediscoverer.github.io/posts/post-2/">
-  <link rel="alternate" type="application/rss+xml" href="" title="For recording and sharing">
+  <link rel="alternate" type="application/rss+xml" href="" title="">
   
   
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -22,6 +22,10 @@
 
   <nav >
     
+    <a href="/"> Home</a>
+    
+    <a href="/about/"> About</a>
+    
   </nav>
 
   <nav class="fontawesome">
@@ -30,7 +34,7 @@
   </nav>
   
   
-  <div class="hidden description">A minimal hugo theme powered by Primer CSS.</div>
+  <div class="hidden description">Made by <a href="">Blog Author</a></div>
   
 </header>
 
@@ -123,16 +127,16 @@
 </table>
 <h2 id="code-blocks">Code Blocks</h2>
 <h4 id="code-block-with-backticks">Code block with backticks</h4>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!doctype html&gt;</span>
-<span style="color:#111">&lt;</span><span style="color:#f92672">html</span> <span style="color:#75af00">lang</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;en&#34;</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;</span><span style="color:#f92672">head</span><span style="color:#111">&gt;</span>
-  <span style="color:#111">&lt;</span><span style="color:#f92672">meta</span> <span style="color:#75af00">charset</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;utf-8&#34;</span><span style="color:#111">&gt;</span>
-  <span style="color:#111">&lt;</span><span style="color:#f92672">title</span><span style="color:#111">&gt;</span>Example HTML5 Document<span style="color:#111">&lt;/</span><span style="color:#f92672">title</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;/</span><span style="color:#f92672">head</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;</span><span style="color:#f92672">body</span><span style="color:#111">&gt;</span>
-  <span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>Test<span style="color:#111">&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;/</span><span style="color:#f92672">body</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;/</span><span style="color:#f92672">html</span><span style="color:#111">&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!doctype html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
+  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
 </code></pre></div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
 <pre><code>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -146,16 +150,16 @@
 &lt;/html&gt;
 </code></pre>
 <h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!doctype html&gt;</span>
-<span style="color:#111">&lt;</span><span style="color:#f92672">html</span> <span style="color:#75af00">lang</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;en&#34;</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;</span><span style="color:#f92672">head</span><span style="color:#111">&gt;</span>
-  <span style="color:#111">&lt;</span><span style="color:#f92672">meta</span> <span style="color:#75af00">charset</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;utf-8&#34;</span><span style="color:#111">&gt;</span>
-  <span style="color:#111">&lt;</span><span style="color:#f92672">title</span><span style="color:#111">&gt;</span>Example HTML5 Document<span style="color:#111">&lt;/</span><span style="color:#f92672">title</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;/</span><span style="color:#f92672">head</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;</span><span style="color:#f92672">body</span><span style="color:#111">&gt;</span>
-  <span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>Test<span style="color:#111">&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;/</span><span style="color:#f92672">body</span><span style="color:#111">&gt;</span>
-<span style="color:#111">&lt;/</span><span style="color:#f92672">html</span><span style="color:#111">&gt;</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!doctype html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
+  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
 <h2 id="list-types">List Types</h2>
 <h4 id="ordered-list">Ordered List</h4>
 <ol>
