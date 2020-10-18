@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>读书 on </title>
+    <title>读书 on For recording and sharing</title>
     <link>https://thediscoverer.github.io/tags/%E8%AF%BB%E4%B9%A6/</link>
-    <description>Recent content in 读书 on </description>
+    <description>Recent content in 读书 on For recording and sharing</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sun, 21 Jun 2020 21:18:18 +0800</lastBuildDate>
     
 	<atom:link href="https://thediscoverer.github.io/tags/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
@@ -12,10 +13,10 @@
     
     <item>
       <title>恶意</title>
-      <link>https://thediscoverer.github.io/post/%E6%81%B6%E6%84%8F/</link>
+      <link>https://thediscoverer.github.io/%E6%81%B6%E6%84%8F/</link>
       <pubDate>Sun, 21 Jun 2020 21:18:18 +0800</pubDate>
       
-      <guid>https://thediscoverer.github.io/post/%E6%81%B6%E6%84%8F/</guid>
+      <guid>https://thediscoverer.github.io/%E6%81%B6%E6%84%8F/</guid>
       <description></description>
     </item>
     

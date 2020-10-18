@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Hugo 0.71.0" />
 
-  <title> Typography |  </title>
-  <meta name="description" content="Made by &lt;a href=&#34;&#34;&gt;Blog Author&lt;/a&gt;">
+  <title> Typography |  For recording and sharing</title>
+  <meta name="description" content="A minimal hugo theme powered by Primer CSS.">
   <link rel="stylesheet" href="https://thediscoverer.github.io/css/index.css">
   <link rel="stylesheet" href="https://thediscoverer.github.io/css/classes.css">
   <link rel="canonical" href="https://thediscoverer.github.io/posts/post-5/">
-  <link rel="alternate" type="application/rss+xml" href="" title="">
+  <link rel="alternate" type="application/rss+xml" href="" title="For recording and sharing">
   
   
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -22,10 +22,6 @@
 
   <nav >
     
-    <a href="/"> Home</a>
-    
-    <a href="/about/"> About</a>
-    
   </nav>
 
   <nav class="fontawesome">
@@ -34,7 +30,7 @@
   </nav>
   
   
-  <div class="hidden description">Made by <a href="">Blog Author</a></div>
+  <div class="hidden description">A minimal hugo theme powered by Primer CSS.</div>
   
 </header>
 
@@ -82,21 +78,21 @@
 <pre><code>print 'this is pre tag'
 </code></pre>
 <p>Following is the syntax highlighted code block</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">getCookie</span>(<span style="color:#a6e22e">name</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">r</span> <span style="color:#66d9ef">interface</span>{}) (<span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Cookie</span>, <span style="color:#66d9ef">error</span>) {
-	<span style="color:#a6e22e">rd</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">r</span>.(<span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>)
-	<span style="color:#a6e22e">cookie</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">rd</span>.<span style="color:#a6e22e">Cookie</span>(<span style="color:#a6e22e">name</span>)
-	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#a6e22e">err</span>
-	}
-	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">cookie</span>, <span style="color:#66d9ef">nil</span>
-}
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#00a8c8">func</span> <span style="color:#75af00">getCookie</span><span style="color:#111">(</span><span style="color:#75af00">name</span> <span style="color:#00a8c8">string</span><span style="color:#111">,</span> <span style="color:#75af00">r</span> <span style="color:#00a8c8">interface</span><span style="color:#111">{})</span> <span style="color:#111">(</span><span style="color:#f92672">*</span><span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">Cookie</span><span style="color:#111">,</span> <span style="color:#00a8c8">error</span><span style="color:#111">)</span> <span style="color:#111">{</span>
+	<span style="color:#75af00">rd</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">r</span><span style="color:#111">.(</span><span style="color:#f92672">*</span><span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">Request</span><span style="color:#111">)</span>
+	<span style="color:#75af00">cookie</span><span style="color:#111">,</span> <span style="color:#75af00">err</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">rd</span><span style="color:#111">.</span><span style="color:#75af00">Cookie</span><span style="color:#111">(</span><span style="color:#75af00">name</span><span style="color:#111">)</span>
+	<span style="color:#00a8c8">if</span> <span style="color:#75af00">err</span> <span style="color:#f92672">!=</span> <span style="color:#00a8c8">nil</span> <span style="color:#111">{</span>
+		<span style="color:#00a8c8">return</span> <span style="color:#00a8c8">nil</span><span style="color:#111">,</span> <span style="color:#75af00">err</span>
+	<span style="color:#111">}</span>
+	<span style="color:#00a8c8">return</span> <span style="color:#75af00">cookie</span><span style="color:#111">,</span> <span style="color:#00a8c8">nil</span>
+<span style="color:#111">}</span>
 
-<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">setCookie</span>(<span style="color:#a6e22e">cookie</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Cookie</span>, <span style="color:#a6e22e">w</span> <span style="color:#66d9ef">interface</span>{}) <span style="color:#66d9ef">error</span> {
+<span style="color:#00a8c8">func</span> <span style="color:#75af00">setCookie</span><span style="color:#111">(</span><span style="color:#75af00">cookie</span> <span style="color:#f92672">*</span><span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">Cookie</span><span style="color:#111">,</span> <span style="color:#75af00">w</span> <span style="color:#00a8c8">interface</span><span style="color:#111">{})</span> <span style="color:#00a8c8">error</span> <span style="color:#111">{</span>
 	<span style="color:#75715e">// Get write interface registered using `Acquire` method in handlers.
-</span><span style="color:#75715e"></span>	<span style="color:#a6e22e">wr</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">w</span>.(<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>)
-	<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">SetCookie</span>(<span style="color:#a6e22e">wr</span>, <span style="color:#a6e22e">cookie</span>)
-	<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>
-}
+</span><span style="color:#75715e"></span>	<span style="color:#75af00">wr</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">w</span><span style="color:#111">.(</span><span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">ResponseWriter</span><span style="color:#111">)</span>
+	<span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">SetCookie</span><span style="color:#111">(</span><span style="color:#75af00">wr</span><span style="color:#111">,</span> <span style="color:#75af00">cookie</span><span style="color:#111">)</span>
+	<span style="color:#00a8c8">return</span> <span style="color:#00a8c8">nil</span>
+<span style="color:#111">}</span>
 </code></pre></div><p>This is blockquote, Will make it <em>better now</em></p>
 <blockquote>
 <p>&lsquo;I want to do with you what spring does with the cherry trees.&rsquo; <!-- raw HTML omitted -->cited ~Pablo Neruda<!-- raw HTML omitted -->*</p>

@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Hugo 0.71.0" />
 
-  <title> Math Type Setting |  </title>
+  <title> Math Type Setting |  For recording and sharing</title>
   <meta name="description" content="The art of letting go.">
   <link rel="stylesheet" href="https://thediscoverer.github.io/css/index.css">
   <link rel="stylesheet" href="https://thediscoverer.github.io/css/classes.css">
   <link rel="canonical" href="https://thediscoverer.github.io/posts/post-3/">
-  <link rel="alternate" type="application/rss+xml" href="" title="">
+  <link rel="alternate" type="application/rss+xml" href="" title="For recording and sharing">
   
   
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -38,10 +38,6 @@
 
   <nav >
     
-    <a href="/"> Home</a>
-    
-    <a href="/about/"> About</a>
-    
   </nav>
 
   <nav class="fontawesome">
@@ -50,7 +46,7 @@
   </nav>
   
   
-  <div class="hidden description">Made by <a href="">Blog Author</a></div>
+  <div class="hidden description">A minimal hugo theme powered by Primer CSS.</div>
   
 </header>
 
@@ -87,8 +83,8 @@
 <li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
 <li>Include the partial in your templates like so:</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">{{</span> <span style="color:#66d9ef">if</span> or .Params.math .Site.Params.math <span style="color:#f92672">}}</span>
-<span style="color:#f92672">{{</span> partial <span style="color:#e6db74">&#34;math.html&#34;</span> . <span style="color:#f92672">}}</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">{{</span> <span style="color:#00a8c8">if</span> or .Params.math .Site.Params.math <span style="color:#f92672">}}</span>
+<span style="color:#f92672">{{</span> partial <span style="color:#d88200">&#34;math.html&#34;</span> . <span style="color:#f92672">}}</span>
 <span style="color:#f92672">{{</span> end <span style="color:#f92672">}}</span>
 </code></pre></div><ul>
 <li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
